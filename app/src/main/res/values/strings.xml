@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DeepSurf</string>
+    <string name="greetings">Welcome to DeepSurf</string>
+    <string name="enter_app_mode">Lets Surf!</string>
 </resources>
