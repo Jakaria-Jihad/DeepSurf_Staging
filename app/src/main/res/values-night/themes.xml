@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DeepSurf_Staging" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/grey</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetAPI="L">@color/my_primary</item>
+    </style>
+
+    <style name="Theme.DeepSurf_Staging" parent="Base.Theme.DeepSurf_Staging" />
+</resources>
