@@ -42,8 +42,8 @@ public class CreateAccountActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progress_bar);
         loginBtnTextView = findViewById(R.id.login_textview_btn);
 
-        createAccountBtn.setOnClickListener(v-> createAccount());
-        loginBtnTextView.setOnClickListener(v-> finish());
+        createAccountBtn.setOnClickListener((v)-> createAccount());
+        loginBtnTextView.setOnClickListener((v)-> finish());
     }
 
     void createAccount(){
@@ -67,7 +67,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                 changeInProgress(false);
                 if(task.isSuccessful()){
                     //success
-                    Toast.makeText(CreateAccountActivity.this,"Successfully created account, Check email to verify", Toast.LENGTH_SHORT).show();
+                    Utility.showToast(CreateAccountActivity.this, "Successfully created account, Check email to verify");
                     firebaseAuth.getCurrentUser().sendEmailVerification();
                     firebaseAuth.signOut();
                     finish();
