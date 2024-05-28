@@ -2,4 +2,10 @@
     <string name="app_name">DeepSurf</string>
     <string name="greetings">Welcome to DeepSurf</string>
     <string name="enter_app_mode">Lets Surf!</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="c_already_have_an_account">Already have an account? </string>
+    <string name="c_login">Login</string>
 </resources>
